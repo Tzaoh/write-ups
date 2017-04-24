@@ -51,7 +51,7 @@ We see that **print_flag** will be called if the condition `local_ch == 0xca11ab
 
 ![Pwn1 Gets Call](assets/4-pwn1_gets_call.png)
 
-So what we need to do? As maybe you know, **gets** is an unsecure function, because it does not check how many characters it must copy in memory when you introduce them. Then if we input more characters than it is supposed store, we will be able to overwrite neightbor local variables!
+So what we need to do? As maybe you know, **gets** is an unsecure function, because it does not check how many characters it must copy in memory when you introduce them. Then if we input more characters than it is supposed store, we will be able to overwrite neighbor local variables!
 
 How can we know the length of the string we must provide? By knowing where the variables are stored onto the stack
 
