@@ -71,7 +71,7 @@ gigem{T00_435Y}
 
 Answer: gigem{T00_435Y}
 
-Complete process:
+### Complete video
 
 <a href="https://asciinema.org/a/2juhmtxkdf7qrnzbury7rzzjc?autoplay=1"><img src="https://asciinema.org/a/2juhmtxkdf7qrnzbury7rzzjc.png" width="400"/></a>
 
