@@ -67,9 +67,9 @@ Well, in this case we can calculate like `0x88h + 4d (ESP length) = 140d`, but I
 Lets use gdb (GNU Debugger).
 
 ```bash
-$ python -c 'print("A"*500)' > input.txt	# We generate a long string and save it in a text file.
-$ gdb pwn2  # We open the binary with gdb.
-(gdb) run < input.txt # Run the binary with the content of input.txt as input.
+$ python -c 'print("A"*500)' > input.txt    # We generate a long string and save it in a text file.
+$ gdb pwn2                                  # We open the binary with gdb.
+(gdb) run < input.txt                       # Run the binary with the content of input.txt as input.
 ```
 
 ![Pwn2 GDB executing pwn2](assets/6-pwn2_gdb.png) 
@@ -85,7 +85,7 @@ Now is when it comes the **pwntools** for python (to install just do `$ pip inst
 Lets try it!
 
 ```bash
-$ pwn cyclic 500 > input.txt				# Generate a string of 500 chars with unique substrings of 4 characters.
+$ pwn cyclic 500 > input.txt  # Generate a string of 500 chars with unique substrings of 4 characters.
 $ gdb pwn2
 (gdb) run < input.txt
 ```
