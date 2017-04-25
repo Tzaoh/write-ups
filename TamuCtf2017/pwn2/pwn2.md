@@ -50,7 +50,7 @@ When a function is going to be called, some data is going to be pushed into the 
 
 > "Why this register? Why is it special?"
 
-The purpose of EIP register (or instruction pointer) is to indicate the CPU which instruction has to be executed after the current one. When the **echo** function finishes the CPU will need to continue the execution right after the call.  
+The purpose of EIP register (or instruction pointer) is to indicate the CPU which instruction has to be executed after the current one. When the **echo** function will finish the CPU will need to continue the execution right after the call.  
 Like this:
 
 ![Pwn2 Normal execution flow](assets/4-pwn2_normal_flow.png)    
