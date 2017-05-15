@@ -167,7 +167,7 @@ Meh! same result.
 But wait a moment, there is a special paramater `%h` which does the following:
 > Specifies that a following d, i, o, u, x, or X conversion specifier applies to a short int or unsigned short int argument (the argument will have been promoted according to the integer promotions, but its value shall be converted to short int or unsigned short int before printing); **or that a following n conversion speciﬁer applies to a pointer to a short int argument**.  -- C is For C Programming - Cask J. Thomson
 
-	Basically this is converting 4-bytes datatypes into 2-bytes ones.
+Basically this is converting 4-bytes datatypes into 2-bytes ones.
     We can use it to save our big value in two times. First we will save one half and then the other.  
 	Let's represent this.
     
