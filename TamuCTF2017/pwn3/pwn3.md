@@ -168,19 +168,19 @@ But wait a moment, there is a special paramater `%h` which does the following:
 > Specifies that a following d, i, o, u, x, or X conversion specifier applies to a short int or unsigned short int argument (the argument will have been promoted according to the integer promotions, but its value shall be converted to short int or unsigned short int before printing); **or that a following n conversion speciﬁer applies to a pointer to a short int argument**.  -- C is For C Programming - Cask J. Thomson
 
 Basically this is converting 4-bytes datatypes into 2-bytes ones.
-    We can use it to save our big value in two times. First we will save one half and then the other.  
-	Let's represent this.
+We can use it to save our big value in two times. First we will save one half and then the other.  
+Let's represent this.
     
-    ![Pwn3 Scheme](assets/12-pwn3_scheme.png)    
+![Pwn3 Scheme](assets/12-pwn3_scheme.png)    
     
-    Then, it makes sense that the first value to be written should be the lowest one `0x804-8 = 2044` in the address `0804a01e` (provided in big endian) which will be stored in the `4th` position of the stack.
+Then, it makes sense that the first value to be written should be the lowest one `0x804-8 = 2044` in the address `0804a01e` (provided in big endian) which will be stored in the `4th` position of the stack.
 
-	```bash
+```bash
 $ python -c 'print("\x1e\xa0\x04\x08" + "addr2" + "%2044x" + "%4$hn" + "%____x" + "%_$hn")'
 ```
-    The second value to be written is the biggest one `0x85ab - (2044 + 8) = 32167` in the address `0804a01c` which will be stored in the `5th` position of the stack.
+The second value to be written is the biggest one `0x85ab - (2044 + 8) = 32167` in the address `0804a01c` which will be stored in the `5th` position of the stack.
 
-	```bash
+```bash
 $ python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" + "%32167x" + "%5$hn")'
 ```
 
