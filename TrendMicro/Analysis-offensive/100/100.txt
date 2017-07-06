@@ -1,0 +1,12 @@
+wget https://s3-ap-northeast-1.amazonaws.com/trendmicro-ctf-2017/VdlfL0oGcZyL6dg1O8aG/files1.enc 
+
+openssl enc -d -aes-256-cbc -k ThdpbDUd6zETVRgshW7C -in files1.enc -out files1.zip
+
+root@kali:/media/sf_shared/TrendMicro# openssl version
+OpenSSL 1.1.0f  25 May 2017
+
+
+Version actualizada de openssl
+git https://github.com/openssl/openssl
+
+
